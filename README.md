@@ -4,13 +4,14 @@
 ## How to install
 ```bash
 git clone https://github.com/abdulrhman500/GUC-ID-Validator.git
+cd GUC-ID-Validator
 python -m venv .venv
-. .venv\Scripts\activate
+.venv\Scripts\activate
 pip install django
 ```
 ## How to use
 ```bash
-cd IEEE_Tasks/Tasks
+cd Tasks
 
 python manage.py runserver
 
@@ -24,8 +25,7 @@ curl http://127.0.0.1:8000/52-1234
 ```
 ####  Output
 ```
-Valid ID  
-Entrance Year: 2020
+Valid ID. Entrance Year: 2020
 ```
 
 ####  Input
