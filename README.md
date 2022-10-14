@@ -11,17 +11,16 @@ pip install django
 ## How to use
 ```bash
 cd IEEE_Tasks/Tasks
+
 python manage.py runserver
-``` 
-Then open
-```bash
-http://127.0.0.1:8000/[ID] #write the id number without the brackets
+
+curl http://127.0.0.1:8000/[ID] #write the id number without the brackets
 ```
 ## Example 
 
 #### Input
 ```bash
-http://127.0.0.1:8000/52-1234
+curl http://127.0.0.1:8000/52-1234
 ```
 ####  Output
 ```
@@ -31,7 +30,7 @@ Entrance Year: 2020
 
 ####  Input
 ```bash
-http://127.0.0.1:8000/51-1234
+curl http://127.0.0.1:8000/51-1234
 ```
 #### Output
 ```
